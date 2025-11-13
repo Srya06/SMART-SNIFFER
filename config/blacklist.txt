@@ -1,0 +1,12 @@
+# Smart Sniffer Blacklist
+# Add suspicious/malicious IP addresses here (one per line)
+
+10.0.0.100
+192.168.1.200
+172.16.0.50
+
+# Known malicious IP ranges (example)
+203.0.113.0/24
+198.51.100.0/24
+
+# Add any IPs you want to block or monitor

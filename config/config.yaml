@@ -1,0 +1,27 @@
+capture:
+  packet_count: 1000
+ids:
+  blacklist:
+    enabled: true
+    file: config/blacklist.txt
+  brute_force:
+    enabled: true
+    ports:
+    - 21
+    - 22
+    - 23
+    threshold: 5
+    window_seconds: 60
+  dos_flood:
+    enabled: true
+    threshold: 50
+    window_seconds: 10
+  port_scan:
+    enabled: true
+    threshold: 10
+    window_seconds: 30
+storage:
+  max_alerts_display: 100
+ui:
+  max_packets_display: 100
+  refresh_interval: 1
